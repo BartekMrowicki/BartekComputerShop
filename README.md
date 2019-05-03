@@ -1,1 +1,2 @@
 "# Bartek_ComputerSHop" 
+Welcome to my app, I've Created this app from my hobbie of building computers and getting to know the structure of build of computers and wanting to give something to people which they could use. The main purpouse of the app is to create an online shop which will display items and will give option to create your own built save it and return to it later if needed. Also I implemented hosted json file as well as offline database RoomDatabase for the app being accessible offline
