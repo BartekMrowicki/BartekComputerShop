@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.bartekcomputershop.MainActivity">
+
+    <group  android:checkableBehavior="single" >
+
+        <item android:id="@+id/HomeScreen"
+              android:title="Home Screen"
+              android:icon="@drawable/ic_home_black_24dp"
+              android:orderInCategory="100"
+              app:showAsAction="never"/>
+
+    <item android:id="@+id/actionComputer"
+          android:title="Pre-Build Computers"
+          android:icon="@drawable/ic_computer_black_24dp"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/actionCPU"
+          android:title="CPU'S"
+          android:icon="@drawable/ic_memory_black_24dp"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/actionGPU"
+          android:title="GPU'S"
+          android:icon="@drawable/ic_videogame_asset_black_24dp"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+        <item android:id="@+id/Owner"
+              android:title="Owner"
+              android:icon="@drawable/ic_person_pin_black_24dp"
+              android:orderInCategory="100"
+              app:showAsAction="never"/>
+    </group>
+</menu>
